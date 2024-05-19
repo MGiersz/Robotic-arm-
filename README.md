@@ -1,3 +1,4 @@
 # Robotyczny Chwytak
 
 Projekt "Robotyczny Chwytak" został wykonany w ramach studiów. Zrealizowany przeze mnie robot to robotyczny chwytak zbudowany w wariancie 5 (z wykorzystaniem gotowych podzespołów) przy użyciu platformy Arduino Uno. Robot porusza się za pomocą serwomechanizmu SG-90 w kierunkach lewo/prawo oraz góra/dół. Ruch serwa jest inicjowany przez czujnik odbiciowy podczerwieni (IR), który jest przypisany do określonego kierunku ruchu (lewo/prawo/dół/góra) i wykrywa obecność palca (lub innego obiektu) użytkownika chwytaka. Część chwytająca jest również sterowana przez czujnik IR; w momencie wykrycia obecności palca chwytak otwiera się. Proces tworzenia można zobaczyć w filmie: [Robotyczny Chwytak - Proces Tworzenia](https://www.youtube.com/watch?v=RQqSPHZa0WY&ab_channel=Micha%C5%82Giersz).
+Kod napisany został w języku programowania Arduino w pliku robocik.ino , język ten jest oparty na języku C/C++.
